@@ -1,0 +1,24 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 { 
+	font-family: Ariel, sans-serif;
+	color: #D99DBD;
+	font-size: 24px;
+}
+
+.navbar navbar-default {
+	padding-bottom: 10px;
+}
+
+div a {
+	color: #D99DBD;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+
+}
+div a:hover {
+	text-decoration: none;
+	color: white;
+}

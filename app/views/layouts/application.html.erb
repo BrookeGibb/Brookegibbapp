@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nameofapp</title>
+  <title>Brooke's Books</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
+      <!-- navbar start here-->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid anchor">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+       <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="projectName navbar-brand">
+        <a href="#">Brooke's Books</a>
+        </div>  <!-- end projectName -->
+    </div> <!-- end navbar-header-->
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+  </div>
+        
+ </div> <!-- end nav container -->
+</div> <!-- end navbar -->
+
 <%= yield %>
+
+<footer>
+	&copy; 2016 Brooke's Books
+</footer>
 
 </body>
 </html>
